@@ -36,4 +36,10 @@ for page in range(1, last_page + 1):
         price = product.find('span', class_=re.compile('priceCard')).get_text().strip()
 
         print(brand, price)
+
+        dic_product['brand'].append(brand)
+        dic_product['price'].append(price)
     print(url_page)
+
+df = pd.DataFrame(dic_product)
+df.to_csv('weireless_keyboards.csv')
