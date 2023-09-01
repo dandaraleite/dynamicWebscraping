@@ -1,4 +1,4 @@
-# DynamicWebscraping ⏳
+# Dynamic Webscraping ⏳
  Product webscraping (wireless keyboards) from a dynamic website (https://www.kabum.com.br)
 
 # Libraries
